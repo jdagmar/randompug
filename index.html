@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">        
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <title>Random pug</title>
+</head>
+
+<body class="primary-sans-serif background-image center">
+
+<header>
+    <h1 class="tc">Random Pug</h1>
+</header>
+
+<main class="b--light-gray h-100 mw6 center pa3">  
+    <div class="w-6 center mb3 bg-white pa3">
+        <div class="">
+            <i id="heart" class="material-icons light-red absolute o-0 ma3"  aria-hidden="true">favorite</i>
+            <img id="image" class="w-100 h5" src="images/pug1.jpg" alt="a pug"/>
+        </div>
+        
+        <p id="alert" class="alert tc o-0 f4">Oh no! The pug lost your love! :(</p>
+
+        <div class="tc mt3 flex justify-center">
+            <button class="mr3 bg-light-red w4-ns pa2 white bn" onclick="loveImage();">
+                Love the pug
+            </button>
+            <button class="mr3 bg-light-red w4 pa2 white bn" onclick="shuffleImages();">
+                New pug <i class="material-icons material-icons-shuffle v-mid f8">shuffle</i>
+            </button>            
+            <button class="bg-light-red w4-ns pa2 white bn" onclick="shakeImage();">
+                Shake the pug
+            </button>         
+        </div>
+    </div>
+</main>
+
+<script src="functions.js"></script>
+
+</body>
+</html>

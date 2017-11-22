@@ -1,0 +1,48 @@
+
+.background-image {
+    background-image: url('images/background.png');
+}
+
+.primary-sans-serif {
+    font-family: 'Dosis';
+}
+
+.shake-on {
+    animation: shake 1s;
+}
+
+@keyframes shake {
+
+    10%, 90% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    
+    20%, 80% {
+        transform: translate3d(3px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-6px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(8px, 0, 0);
+    }
+
+}
+
+.material-icons {
+    font-size: 80px !important;
+}
+
+.material-icons-shuffle {
+    font-size: 20px !important;
+}
+
+.love-on {
+    opacity: 1;
+}
+
+.alert-on {
+    opacity: 1;
+}
