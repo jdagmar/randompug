@@ -46,3 +46,7 @@
 .alert-on {
     opacity: 1;
 }
+
+#image {
+    object-fit: cover;
+}
